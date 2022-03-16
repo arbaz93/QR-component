@@ -2,7 +2,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://arbaz93.github.io/QR-component/)
+- Live Site URL: (https://arbaz93.github.io/QR-component/)
 
 ### Built with
 
