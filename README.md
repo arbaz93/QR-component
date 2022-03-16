@@ -3,6 +3,7 @@
 ### Links
 
 - Live Site URL: (https://arbaz93.github.io/QR-component/)
+![qr code component](./design/desktop-preview.jpg)
 
 ### Built with
 
