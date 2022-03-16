@@ -63,7 +63,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  width: 18rem;
+  width: 20rem;
   padding: 1rem 1rem 2.5rem 1rem;
 
   border-radius: 18px;
@@ -75,6 +75,9 @@ body {
   border-radius: 8px;
 }
 
+.container-qr-component > article {
+  padding: 1rem;
+}
 .container-qr-component > article > * {
   margin-top: 1rem;
 }
