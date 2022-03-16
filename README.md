@@ -1,8 +1,8 @@
-# QR-Code
+# QR-Code-Component
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://arbaz93.github.io/QR-component/)
 
 ### Built with
 
