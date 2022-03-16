@@ -1,0 +1,84 @@
+:root {
+  /* colors */
+  --clr-primary: hsl(218, 44%, 22%); /* dark blue*/
+  --clr-secondary-100: hsl(212, 45%, 89%); /* light gray*/
+  --clr-secondary-200: hsl(220, 15%, 55%); /* grayish blue*/
+  --clr-white: hsl(0, 0%, 100%); /* white*/
+
+  /* font-family */
+  --ff-regular: "Outfit";
+
+  /* font-size */
+  --fs-100: 0.938rem;
+
+  /* font weight */
+  --fw-100: 400;
+  --fw-200: 700;
+}
+/* -------------- */
+/* Reset          */
+/* -------------- */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Setting some default values to body */
+
+body {
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+
+  font-family: var(--ff-regular);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-100);
+  color: var(--clr-secondary-200);
+  line-height: 1.2;
+  text-align: center;
+
+  background-color: var(--clr-secondary-100);
+}
+
+/* -------------- */
+/* Components     */
+/* -------------- */
+
+.container-qr-component {
+  display: flex;
+  flex-direction: column;
+
+  width: 18rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+
+  border-radius: 18px;
+
+  background-color: var(--clr-white);
+}
+
+.container-qr-component > section img {
+  border-radius: 8px;
+}
+
+.container-qr-component > article > * {
+  margin-top: 1rem;
+}
+.container-qr-component > article > h1 {
+  color: var(--clr-primary);
+  font-weight: var(--fw-200);
+}
